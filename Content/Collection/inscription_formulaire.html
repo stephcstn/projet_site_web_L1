@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="../../Styles/menu.css" rel="stylesheet" media="screen" />
+    <link href="../../Styles/inscription_connexion.css" rel="stylesheet" media="screen" />
+    <link href="../../Styles/dark_mode.css" rel="stylesheet" media="screen" />
+    <script src="../../JavaScript/change_mode.js"></script>
+
+    <title>Inscription/Connexion</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="entete">
+            <nav class="menu">
+                <a href="#"><img src="../../Images/logo_ferrari1.jpg" alt="site web ferrari" class="logo" /></a>
+                <a href="../../index.html">Accueil</a>
+                <a href="collection_de_voitures.html">Voitures de collection</a>
+                <a href="page_contact.html">Contact</a>
+                <a href="inscription_formulaire.html">Inscription/Connexion</a>
+                <div class="search-container">
+                    <input type="text2" placeholder="Rechercher..." name="search" />
+                    <button type="submit"><img src="../../Images/loupe.jpg" alt="Loupe" class="search-icon" /></button>
+                </div>
+                <label class="switch" id="modeToggle">
+                    <input type="checkbox" id="modeCheckbox" onclick="myFunction()">
+                    <span class="slider1 round"></span>
+                </label>
+            </nav>
+        </div>
+    </header>
+    <script src="../../JavaScript/inscription_connexion.js"></script>
+    <h1>Inscription / Connexion</h1>
+    <form action="#" onsubmit="return validateForm()">
+        <label for="name">Nom :</label><br>
+        <input type="name" id="name" name="name" required><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Mot de passe :</label><br>
+        <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+        <!-- Champ caché pour stocker les informations sur l'utilisateur -->
+        <input type="hidden" id="userAgentInformations" name="userAgentInformations">
+
+        <button type="button" onclick="updateUserInfo()">Mettre à jour les informations utilisateur</button><br><br>
+
+        <button type="submit">S'inscrire / Se connecter</button>
+    </form>
+</body>
+
+</html>

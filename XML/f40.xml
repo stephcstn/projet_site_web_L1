@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "car.dtd">
+<car nom="Ferrari" modele="f40" type="Supercar" id="car2">
+    <collection>
+        <prix>prix du véhicule neuf :  250 000 € TTC</prix>
+        <estimation>prix du véhicule actuellement : 3 000 000 € TTC</estimation>
+    </collection>
+    <couleurHistorique couleur ="rouge">
+        <histoire>Couleur rouge : La Ferrari F40 est associée à une teinte de 
+         rouge vif appelée "Rosso Corsa", qui évoque la passion pour la performance
+         et la compétition. Cette couleur emblématique incarne l'héritage et la 
+         tradition de la marque italienne, ainsi que la puissance brute et 
+         l'élégance intemporelle de la F40. Choisir le "Rosso Corsa" pour sa 
+         Ferrari F40 exprime l'authenticité, l'histoire et la passion pour la 
+         conduite sportive et l'ingénierie automobile de pointe.
+        </histoire>
+    </couleurHistorique>
+    <caracteristiques>
+        <moteur energie="essence" nom="F120 D Ferrari" >
+            <type1>6 cylindres à plat</type1>
+            <cylindree>3299cc</cylindree>
+            <puissance>360ch</puissance>
+            <couple>459nm à 4500 trs/min</couple>
+        </moteur>
+        <performances>
+            <acceleration>0 à 100km/h : 3,6s</acceleration>
+            <acceleration>0 à 160km/h : 6,70s</acceleration>
+            <acceleration>0 à 200km/h : 9,9s</acceleration>
+            <vmax>353km/h</vmax>
+            <consommation>normalisée : 23 l/100km</consommation>
+            <emissions>Emissions CO2 : 545	g/km</emissions>
+        </performances>
+        <autres>
+            <quantiteProduite>400</quantiteProduite>
+            <dateSortie>2002</dateSortie>
+            <dateFinDeProduction>2004</dateFinDeProduction>
+        </autres>
+        <transmission gearbox="manuelle">
+            <type2>Propulsion</type2>
+            <rapport>Séquentielle 6 rapports</rapport>
+        </transmission>
+        <chassis>
+            <suspension> AV et AR : Triangles superposés</suspension>
+            <freins> AV et AR : Disques ventilés en carbone céramique (380 mm)</freins>
+        </chassis>
+        <dimensions>
+            <longueur>4,72m</longueur>
+            <largeur>2,03m</largeur>
+            <hauteur>1,14m</hauteur>
+            <reservoir>110l</reservoir>
+            <poidsVide>1375	kg</poidsVide>
+        </dimensions>
+    </caracteristiques>
+</car>

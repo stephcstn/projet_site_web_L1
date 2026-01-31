@@ -1,0 +1,92 @@
+header {
+  background-image: url(../Images/background1.jpg);
+  height: 110vh;
+  background-size: cover;
+  padding: 10px 20px; /* Espacement interne de l'en-tête */
+}
+
+.footer {
+    background-color: #333; /* Couleur de fond grisé */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espacement interne */
+    text-align: left; /* Centrage du contenu */
+  }
+  
+  .footer a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none; /* Suppression du soulignement des liens */
+    font-size: 28px; /* Taille de police plus grande */
+    display: inline-block; /* Affichage en ligne pour aligner horizontalement */
+    margin: 50px; /* Espacement autour des liens */
+    font-family: Times New 'Times New Roman';
+    margin-left: 160px;
+  }
+  
+  .separator {
+    border-top: 1px solid #fff; /* Trait blanc en haut */
+    margin-bottom: 10px; /* Marge en bas du trait */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Met les éléments en colonne */
+  }
+  
+  .social-media, .ferrari-info {
+    margin-bottom: 20px; /* Espacement entre les sections */
+  }
+  
+  .social-media h3, .ferrari-info h3 {
+    margin-top: 0;
+  }
+  
+  .social-media ul, .social-media ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media ul li a {
+    color: #fff; /* Liens en blanc */
+    text-decoration: none;
+  }
+  
+  .social-media ul li a:hover {
+    text-decoration: underline; /* Souligner au survol */
+  }
+  
+  .ferrari-info p {
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 10px; /* Taille de police plus petite */ 
+    opacity: 0.3; /* Opacité pour le texte à peine lisible */
+    text-align: center;
+  }
+
+  #date {
+    margin-left: 170px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Couleur du texte */
+    background-color: #f2f2f2; /* Couleur de l'arrière-plan */
+    padding: 10px 15px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  /* Effet de survol */
+  #date:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+    color: #555; /* Couleur du texte au survol */
+  }
+
+  #random-link{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 780px;
+  }
