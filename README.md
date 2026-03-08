@@ -10,6 +10,9 @@ Réaliser mon tout premier site web afin de comprendre le fonctionnement et le r
 
 Ce projet avait pour but de découvrir les bases du développement web et de visualiser concrètement l’impact du code sur l’interface utilisateur.
 
+## Structure du projet
+<img width="311" height="823" alt="image" src="https://github.com/user-attachments/assets/435aa214-c4a7-4b8c-9cd9-3a67a4e71ce7" />
+
 ## Technologies utilisées
 - HTML
 - CSS
@@ -36,11 +39,7 @@ L’accent a été mis sur :
 - Menu interactif
 - Animations CSS simples
 
-## Structure du projet
-<img width="311" height="823" alt="image" src="https://github.com/user-attachments/assets/435aa214-c4a7-4b8c-9cd9-3a67a4e71ce7" />
-
 ## Démo en ligne
-
 Le site est accessible directement via GitHub Pages :  
 https://stephcstn.github.io/projet_site_web_L1/
 
