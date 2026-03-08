@@ -35,3 +35,7 @@ L’accent a été mis sur :
 - Design responsive basique
 - Menu interactif
 - Animations CSS simples
+
+## Structure du projet
+<img width="311" height="823" alt="image" src="https://github.com/user-attachments/assets/435aa214-c4a7-4b8c-9cd9-3a67a4e71ce7" />
+
