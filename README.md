@@ -1,6 +1,9 @@
 # Projet Site Web – L1 Informatique
 
-Projet réalisé en L1 Informatique dans le cadre de mon apprentissage du développement web.
+Projet réalisé en L1 Informatique dans le cadre de mon apprentissage du développement web au sein de l'université de Poitiers.
+
+## Auteur
+Stéphane Castan
 
 ## Objectif
 Réaliser mon tout premier site web afin de comprendre le fonctionnement et le rendu d’un site côté navigateur.
@@ -27,5 +30,8 @@ L’accent a été mis sur :
 - Ajouter des interactions simples avec JavaScript
 - Organiser un premier projet web
 
-## Statut
-Projet universitaire – L1 Informatique
+## Fonctionnalités
+- Navigation entre plusieurs pages
+- Design responsive basique
+- Menu interactif
+- Animations CSS simples
